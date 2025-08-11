@@ -1,5 +1,3 @@
-app.get('/', (req,res) => res.send('Flux server OK'));
-
 // server.js — Flux Chess (server-authoritative)
 const express = require('express');
 const http = require('http');
@@ -184,3 +182,4 @@ io.on('connection', (socket)=>{
 
 
 httpServer.listen(process.env.PORT||3000, ()=> console.log('Flux server on :'+(process.env.PORT||3000)) );
+
