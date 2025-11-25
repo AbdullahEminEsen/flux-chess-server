@@ -1,4 +1,4 @@
-# Flux Chess Server
+# Flux Chess Game
 [![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/AbdullahEminEsen/flux-chess-server)
 
 This repository contains the backend and frontend for **Flux Chess**, a real-time, two-player online chess variant. It features custom pieces with unique abilities, HP and attack stats, and a skill-based combat system where timing determines the damage dealt. The entire game logic is authoritatively handled by the Node.js server, with a lightweight vanilla JavaScript client for rendering and interaction.
